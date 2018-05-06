@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Smart Modular Contracts - IoT Demonstration</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="landing" onload="update_sm_data();">
+	<!-- INIT ETH Scipt Data-->
+
+		<!-- Header -->
+			<header id="header" class="alt skel-layers-fixed">
+				<h1><a href="http://www.smontracts.com">  Smart Modular Contracts <span> IoT Demonstration</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Reload</a></li>
+						<li><a href="mailto:info@smontracts.com">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>SMART MODULAR CONTRACTS</h2>
+					<p>IoT Demonstration - Autmatic Payment for Milestone</p>
+				</div>
+			</section>
+			
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="container">
+					<div class="row uniform">
+						<div class="4u 6u(2) 12u$(3)">
+							<section class="feature fa-cube">
+								<h3 id="i_box">loading</h3>
+								<p>Item delivered : ITEM ID</p>
+							</section>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<section class="feature fa-exchange">
+								<h3 id="o_box">loading</h3>
+								<p>Item cancel : S-ITEM ID</p>
+							</section>
+						</div>
+						<div class="4u$ 6u(2) 12u$(3)">
+							<section class="feature fa-money">
+								<h3 id="b_crd">loading</h3>
+								<p>Contract Wallet : W-AMOUNT</p>
+							</section>
+						</div>
+						<div class="4u 6u$(2) 12u$(3)">
+							<section class="feature fa-line-chart">
+								<h3 id="b_sme">loading</h3>
+								<p>Contract History : H-AMOUNT</p>
+							</section>
+						</div>
+						<div class="4u 6u(2) 12u$(3)">
+							<section class="feature fa-minus-circle">
+								<h3 id="b_int">loading</h3>
+								<p>Interest Paid : I-AMOUNT</p>
+							</section>
+						</div>
+						<div class="4u$ 6u$(2) 12u$(3)">
+							<section class="feature fa-male">
+								<h3 id="b_prn">loading</h3>
+								<p>Principal Paid : P-AMOUNT</p>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			
+			
+		<!-- Footer -->
+			<footer id="footer">
+					<a href="#" ><img src="images/smc_logo.png" alt="" width="80px" height="80px" /><br/>
+				<span class="copyright">
+					&copy; Copyright. All rights reserved. Design by <a href="http://www.smontracts.com">Smart Modular Contracts</a>
+				</span>
+			</footer>
+
+			<!-- ETH Script -->
+			<script type="text/javascript" src="/node_modules/bignumber.js/bignumber.min.js"></script>
+			<script type="text/javascript" src="/node_modules/web3/dist/web3-light.js"></script>
+
+			<!-- ETH Script Contract-->
+			<script type="text/javascript" src="/config.js"></script>
+
+			<!-- ETH Script Data loading-->
+			<script src="eth_data.js"></script>
+
+	</body>
+</html>

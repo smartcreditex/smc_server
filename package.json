@@ -1,0 +1,16 @@
+{
+  "name": "smc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "onoff": "^1.1.7",
+    "web3": "^0.20.0"
+  }
+}
