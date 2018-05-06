@@ -23,6 +23,7 @@ module.exports = function (app) {
   // static sites
   app.use(express.static('css'));
   app.use(express.static('images'));
+  app.use(express.static('fonts'));
   app.use(express.static('data'));
   app.use(express.static('js'));
   app.use(express.static('pages'));
@@ -30,6 +31,7 @@ module.exports = function (app) {
 
   app.use('/css', express.static('css'));
   app.use('/images', express.static('images'));
+  app.use('/fonts', express.static('fonts'));
   app.use('/data', express.static('data'));
   app.use('/js', express.static('js'));
   app.use('/pages', express.static('pages'));
