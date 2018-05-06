@@ -1,8 +1,10 @@
 FROM node:8-stretch
 
 WORKDIR /
-COPY . /smc
-WORKDIR /smc
 
-RUN npm install --save
+WORKDIR /smc
+COPY package.json .
+RUN npm install
+COPY . /smc
+
 CMD "node" "server.js"
